@@ -7,5 +7,5 @@ mongoose.connect("mongodb://localhost:27017/userRegistration",{
 }).then(() =>{
     console.log(`connection successful`);
 }).catch((e) =>{
-    console.log(`no connection`)
+    console.log("Connection failed")
 })
