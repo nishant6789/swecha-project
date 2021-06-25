@@ -11,8 +11,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-validator": "^6.12.0",
     "hbs": "^4.1.2",
-    "mongoose": "^5.12.14"
-  }
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timusy/swecha-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Timusy/swecha-project/issues"
+  },
+  "homepage": "https://github.com/Timusy/swecha-project#readme"
 }
